@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.bergie.oldschoolEnchanting.Mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnchantmentScreenHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

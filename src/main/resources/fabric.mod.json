@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "oldschool-enchanting",
+  "version": "${version}",
+  "name": "Oldschool-Enchanting",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/oldschool-enchanting/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.bergie.oldschoolEnchanting.client.OldschoolEnchantingClient"
+    ],
+    "main": [
+      "org.bergie.oldschoolEnchanting.OldschoolEnchanting"
+    ]
+  },
+  "mixins": [
+    "oldschool-enchanting.mixins.json",
+    {
+      "config": "oldschool-enchanting.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
