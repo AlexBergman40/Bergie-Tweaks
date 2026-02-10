@@ -4,7 +4,8 @@
   "package": "org.bergie.oldschoolEnchanting.Mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "EnchantmentScreenHandlerMixin"
+    "EnchantmentScreenHandlerMixin",
+    "ApplyBonusLootFunctionMixin"
   ],
   "injectors": {
     "defaultRequire": 1
