@@ -7,20 +7,20 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/oldschool-enchanting/icon.png",
+  "icon": "assets/bergie-tweaks/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "org.bergie.oldschoolEnchanting.client.OldschoolEnchantingClient"
+      "org.bergie.bergieTweaks.client.BergieTweaksClient"
     ],
     "main": [
-      "org.bergie.oldschoolEnchanting.OldschoolEnchanting"
+      "org.bergie.bergieTweaks.BergieTweaks"
     ]
   },
   "mixins": [
-    "oldschool-enchanting.mixins.json",
+    "bergie-tweaks.mixins.json",
     {
-      "config": "oldschool-enchanting.client.mixins.json",
+      "config": "bergie-tweaks.client.mixins.json",
       "environment": "client"
     }
   ],

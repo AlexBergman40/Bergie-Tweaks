@@ -1,11 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "org.bergie.oldschoolEnchanting.Mixins",
+  "package": "org.bergie.bergieTweaks.client.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
-    "EnchantmentScreenHandlerMixin",
-    "ApplyBonusLootFunctionMixin"
+  "client": [
+    "EnchantmentScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

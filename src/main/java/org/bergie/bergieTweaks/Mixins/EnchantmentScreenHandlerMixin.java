@@ -1,8 +1,7 @@
-package org.bergie.oldschoolEnchanting.Mixins;
+package org.bergie.bergieTweaks.Mixins;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.screen.EnchantmentScreenHandler;
 import net.minecraft.screen.ScreenHandler;

@@ -14,7 +14,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "oldschool-enchanting" {
+        "bergie-tweaks" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }
