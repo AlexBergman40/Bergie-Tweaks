@@ -1,4 +1,4 @@
-package org.bergie.oldschoolEnchanting.client.mixin;
+package org.bergie.bergieTweaks.client.mixin;
 
 import com.mojang.blaze3d.pipeline.RenderPipeline;
 import net.minecraft.client.font.TextRenderer;
